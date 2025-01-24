@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lin Blanco Identity Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <div id="wrapper">
+        <nav id="desktop-nav">
+            <div class = "logo">Lin Blanco</div>
+            <div>
+                <ul class = "nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Likes</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </nav>
+        <nav id = hamburger-nav>
+            <div class = "logo">Lin Blanco</div>
+            <div class= "hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Likes</a></li>
+                    
+                    
+                </div>
+            </div>
+        </nav>
+        <!-- PROFILE SECTION -->
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/Lin_Blanco_Headshot_2.jpg" alt ="Lin Blanco Profile Picture"/>
+            </div>
+            <div class = "section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Lin Blanco</h1>
+                <p class="section__text__p2">Western Student</p>
+                
+                <div id="socials-container">
+                    <img 
+                        src="./assets/linkedin.png" 
+                        alt="My LinkedIn profile" 
+                        class="icon" 
+                        onclick="location.href='https://www.linkedin.com/in/lin-blanco-293402273//'"
+                    />
+                    <img 
+                        src="./assets/github.png" 
+                        alt="My Github profile" 
+                        class="icon" 
+                        onclick="location.href='https://github.com/blancos2'"
+                    />
+                </div>
+            </div>
+        </section>
+        <!--BACKGROUND IMAGE-->
+        <div class="background-image">
+        </div>
+        <img 
+        src="./assets/arrow_UP.png"
+        alt="Arrow icon"
+        class="icon arrow-up"
+        onclick="location.href='#profile'"
+        />
+        
+
+        <!-- ABOUT SECTION -->
+
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img 
+                        src="./assets/profile-img.jpg" 
+                        alt="Profile picture" 
+                        class="about-pic"
+                    />
+                </div>
+                <div class="about-details-container">
+                    <div class ="about-containers">
+                        <div class="details-container">
+                            <img 
+                            src="./assets/experience.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <h3>Experience</h3>
+                            <p>1 year <br>Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img 
+                            src="./assets/education.png" 
+                            alt="Education icon"
+                            class="icon"
+                            />
+                            <h3>Education</h3>
+                            <p>Computer Science Bachelors Degree<br>Statistics Minor<br>Web Development Minor</p>
+                        </div>
+                    </div>
+                    <div class = "text-container">
+                        <p>My name is Lin, and I am a student at Western Washington University, stationed in Bellingham, WA. I am very passionate about web development and graphic design. I'm a big fan of video games and D&D! </p>
+                    </div>
+                </div>
+            </div>
+            <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" 
+            class="icon arrow" 
+            onclick="location.href='./#experience'"/>
+        </section>
+        <div class="clearboth"></div>
+
+
+        <!-- EXPERIENCE SECTION -->
+        <section id = "experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Likes</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                    <h2 class="experience-sub-title">Favorite Games</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 id="demo">In Stars and Time</h3>
+                
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 id="demo">Fire Emblem</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 id="demo">Identity V</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 id="demo">Rain World</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 id="demo">Hollow Knight</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3 id="demo">Disco Elysium</h3>
+
+                            </div>
+                        </article>
+                    </div>
+                 
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Other Things I Enjoy</h2>
+                <div class="article-container">
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Scented Candles</h3>
+                            
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Tres Leches</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Doodling</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Cats</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Digital Art</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="./assets/checkmark.png" 
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Burrito Blanket</h3>
+                        </div>
+                    </article>
+                </div>
+            
+            </div>
+            
+        </section>
+
+        <footer>Copyright © 2024 Lin Blanco
+            <li><a href="mailto:blancos2@wwu.edu">blancos2@wwu.edu</a></li>
+            <script>
+                var date = document.lastModified;
+                document.write(date);
+            </script>
+        </footer>
+       
+        <script src="script.js"></script>    
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers items horizontally */
+        gap: 1rem; /* Adds spacing between the stacked elements */
+        padding: 2rem;
+        height: fit-content;
+    }
+
+    #projects{
+        height: fit-content;
+    }
+    #experience{
+        height: fit-content;
+    }
+    
+    .about-pic{
+        width: 80vh;
+    }
+
+
+}
+
+@media screen and (max-width: 1024px){
+
+    form {
+        width: 60vh; 
+        display: grid;
+        grid-template-columns: 6em 1fr;
+        align-items: center;
+        gap: 1em;
+    }
+    input[type="submit"]{
+        grid-column: 2;
+        width: 9em;
+        justify-self: start;
+    }
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .section__pic-container {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        
+    }
+    
+    .about-pic {
+        border-radius: 50%; 
+    }
+    
+    .about-details-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    .about-containers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    
+    .details-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .text-container {
+        text-align: center;
+        padding: 1rem;
+        
+        max-width: 800px; /* Optional for readable text width */
+    }
+    
+    .contact-items{
+        flex-direction: column;
+        align-content: center;
+    justify-content: center;
+    align-self: center;
+    }
+    
+    table{
+        margin: 0 auto;
+    }
+
+    td{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+     
+}
